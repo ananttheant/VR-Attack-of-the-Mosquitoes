@@ -32,3 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+VR-Attack-of-the-Mosquitoes/Library
+VR-Attack-of-the-Mosquitoes/Temp
+VR-Attack-of-the-Mosquitoes/Builds
