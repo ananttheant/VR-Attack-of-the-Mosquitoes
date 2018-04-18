@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.06244595, g: 0.17158394, b: 0.4044118, a: 1}
+  m_AmbientSkyColor: {r: 0.03406142, g: 0.10532464, b: 0.25735295, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.12
@@ -752,8 +752,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9191176, g: 0.491, b: 0.2635705, a: 1}
-  m_Intensity: 7.05
-  m_Range: 6.94
+  m_Intensity: 3.29
+  m_Range: 6.64
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -1292,7 +1292,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 926876284
+  randomSeed: 1894671716
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4976,8 +4976,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.9191176, g: 0.88466716, b: 0.79071146, a: 1}
-  m_Intensity: 0.24
+  m_Color: {r: 0.9852941, g: 0.95225066, b: 0.8621323, a: 1}
+  m_Intensity: 0.03
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
