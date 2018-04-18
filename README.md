@@ -16,3 +16,5 @@ You can find the application in the release for the following platform:
 
 * For google cardboard andriod--> andriod 6 "Marshmallow"
 * HTC Vive standing setup
+
+![untitled](https://user-images.githubusercontent.com/10895811/38937057-ebd6270e-433f-11e8-9b32-b7e5a90e6e0f.png)
