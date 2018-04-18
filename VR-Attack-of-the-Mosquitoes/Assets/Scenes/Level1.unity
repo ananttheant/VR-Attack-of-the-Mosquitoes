@@ -86,7 +86,8 @@ LightmapSettings:
     m_PVRFilteringAtrousColorSigma: 1
     m_PVRFilteringAtrousNormalSigma: 1
     m_PVRFilteringAtrousPositionSigma: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 81e5b294c18d73f4c9622000e7163439,
+    type: 2}
   m_ShadowMaskMode: 2
 --- !u!196 &4
 NavMeshSettings:
@@ -951,6 +952,7 @@ GameObject:
   - component: {fileID: 887752030}
   - component: {fileID: 887752029}
   - component: {fileID: 887752028}
+  - component: {fileID: 887752031}
   m_Layer: 0
   m_Name: Main Camera (head)
   m_TagString: MainCamera
@@ -1030,6 +1032,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   origin: {fileID: 0}
+--- !u!45 &887752031
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 887752026}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: af10dfb8374bcff44a6393b540f30d62, type: 2}
 --- !u!4 &899405935 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4956961408580234, guid: 87ec962223fa29b4191364ec1f2d3334,
@@ -4840,7 +4850,7 @@ GameObject:
   - component: {fileID: 1645274923}
   - component: {fileID: 1645274922}
   - component: {fileID: 1645274929}
-  - component: {fileID: 1645274930}
+  - component: {fileID: 1645274928}
   - component: {fileID: 1645274926}
   m_Layer: 0
   m_Name: Main Camera (eye)
@@ -4981,6 +4991,14 @@ Behaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1645274919}
   m_Enabled: 1
+--- !u!45 &1645274928
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645274919}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: af10dfb8374bcff44a6393b540f30d62, type: 2}
 --- !u!114 &1645274929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4992,14 +5010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c278d04d2267a94429659ae08d9df4f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!45 &1645274930
-Skybox:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1645274919}
-  m_Enabled: 1
-  m_CustomSkybox: {fileID: 2100000, guid: af10dfb8374bcff44a6393b540f30d62, type: 2}
 --- !u!4 &1678719941 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: bafe78e94ac9d28458593c06800e6624, type: 3}
